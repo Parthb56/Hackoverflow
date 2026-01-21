@@ -25,53 +25,53 @@ const Gallery = () => {
       year: "2023",
       title: "HackOverflow 1.0",
       theme: "The Beginning",
-      stats: { participants: 250, projects: 45, hours: 36 },
+      stats: { participants: 200, projects: 45, hours: 36 },
       memories: [
-        { 
-          id: 1, 
-          title: "Opening Ceremony", 
+        {
+          id: 1,
+          title: "Opening Ceremony",
           desc: "The journey begins with 250+ passionate minds",
           time: "Day 1 - Morning",
           url: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
           color: "#FCB216"
         },
-        { 
-          id: 2, 
-          title: "Team Formation", 
-          desc: "Ideas collide, teams form, magic happens",
-          time: "Day 1 - Afternoon",
+        {
+          id: 2,
+          title: "Coding Begins",
+          desc: "Ideas turn into code, one line at a time",
+          time: "Day 1 - Evening",
           url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800",
           color: "#E85D24"
         },
-        { 
-          id: 3, 
-          title: "Midnight Coding", 
-          desc: "When the code flows and caffeine kicks in",
-          time: "Day 1 - Night",
+        {
+          id: 3,
+          title: "Judging & Mentoring",
+          desc: "Where experience shapes innovation",
+          time: "Day 2 - Afternoon",
           url: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800",
           color: "#D91B57"
         },
-        { 
-          id: 4, 
-          title: "Final Sprint", 
-          desc: "The last push before presentations",
-          time: "Day 2 - Morning",
+        {
+          id: 4,
+          title: "Networking Night",
+          desc: "Breaking the code and the routine",
+          time: "Day 2 - Night",
           url: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800",
           color: "#63205F"
         },
-        { 
-          id: 5, 
-          title: "Pitch Perfect", 
-          desc: "Teams present their revolutionary ideas",
-          time: "Day 2 - Afternoon",
+        {
+          id: 5,
+          title: "Pitch Perfect",
+          desc: "Months of effort, minutes to impress",
+          time: "Day 3 - Morning",
           url: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800",
           color: "#FCB216"
         },
-        { 
-          id: 6, 
-          title: "Victory", 
+        {
+          id: 6,
+          title: "Victory",
           desc: "Celebrating the innovators and winners",
-          time: "Day 2 - Evening",
+          time: "Day 3 - Afternoon",
           url: "https://images.unsplash.com/photo-1528605105345-5344ea20e269?w=800",
           color: "#E85D24"
         }
@@ -81,53 +81,53 @@ const Gallery = () => {
       year: "2024",
       title: "HackOverflow 2.0",
       theme: "Level Up",
-      stats: { participants: 400, projects: 68, hours: 36 },
+      stats: { participants: 250, projects: 60, hours: 36 },
       memories: [
-        { 
-          id: 7, 
-          title: "Grand Welcome", 
-          desc: "Bigger, better, bolder than ever",
+        {
+          id: 7,
+          title: "Grand Welcome",
+          desc: "A new journey begins with bold ideas and open minds",
           time: "Day 1 - Morning",
           url: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800",
           color: "#FCB216"
         },
-        { 
-          id: 8, 
-          title: "Workshop Wave", 
-          desc: "Learning from industry experts",
-          time: "Day 1 - Afternoon",
-          url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800",
-          color: "#E85D24"
-        },
-        { 
-          id: 9, 
-          title: "Networking Night", 
+        {
+          id: 8,
+          title: "Judging & Mentoring",
           desc: "Connections that last a lifetime",
-          time: "Day 1 - Evening",
+          time: "Day 2 - Afternoon",
           url: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800",
           color: "#D91B57"
         },
-        { 
-          id: 10, 
-          title: "Hack Mode: ON", 
-          desc: "When creativity meets technology",
-          time: "Day 1 - Night",
-          url: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800",
-          color: "#63205F"
-        },
-        { 
-          id: 11, 
-          title: "Demo Day", 
-          desc: "Showcasing innovation at its finest",
-          time: "Day 2 - Afternoon",
+        {
+          id: 9,
+          title: "Final Pitch",
+          desc: "Turning hard work into a powerful story",
+          time: "Day 3 - Morning",
           url: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800",
           color: "#FCB216"
         },
-        { 
-          id: 12, 
-          title: "Champions Rise", 
+        {
+          id: 10,
+          title: "Hackathon Starts",
+          desc: "The grind begins creativity meets execution",
+          time: "Day 1 - Evening",
+          url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800",
+          color: "#E85D24"
+        },
+        {
+          id: 11,
+          title: "Jamming Night",
+          desc: "Because innovation needs a little fun too",
+          time: "Day 2 - Night",
+          url: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800",
+          color: "#63205F"
+        },
+        {
+          id: 12,
+          title: "Champions Rise",
           desc: "New legends are born",
-          time: "Day 2 - Evening",
+          time: "Day 3 - Afternoon",
           url: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800",
           color: "#E85D24"
         }
@@ -137,53 +137,53 @@ const Gallery = () => {
       year: "2025",
       title: "HackOverflow 3.0",
       theme: "Future Forward",
-      stats: { participants: 500, projects: 85, hours: 36 },
+      stats: { participants: 250, projects: 62, hours: 36 },
       memories: [
-        { 
-          id: 13, 
-          title: "Epic Opening", 
-          desc: "500+ innovators under one roof",
+        {
+          id: 13,
+          title: "Inaguration Ceremony",
+          desc: "Where innovators gather and possibilities take shape",
           time: "Day 1 - Morning",
           url: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800",
           color: "#FCB216"
         },
-        { 
-          id: 14, 
-          title: "Tech Talks", 
-          desc: "Insights from tech giants",
-          time: "Day 1 - Afternoon",
-          url: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
-          color: "#E85D24"
-        },
-        { 
-          id: 15, 
-          title: "Brainstorm Sessions", 
+        {
+          id: 14,
+          title: "Networking & Judging",
           desc: "Ideas that change the world",
-          time: "Day 1 - Evening",
+          time: "Day 2 - Afternoon",
           url: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800",
           color: "#D91B57"
         },
-        { 
-          id: 16, 
-          title: "Code Marathon", 
-          desc: "36 hours of pure innovation",
-          time: "Day 1 - Night",
-          url: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800",
-          color: "#63205F"
-        },
-        { 
-          id: 17, 
-          title: "Judgment Hour", 
+        {
+          id: 15,
+          title: "Grand Finale",
           desc: "The best minds evaluate brilliance",
-          time: "Day 2 - Afternoon",
+          time: "Day 3 - Morning",
           url: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800",
           color: "#FCB216"
         },
-        { 
-          id: 18, 
-          title: "Grand Finale", 
+        {
+          id: 16,
+          title: "Coding sprint",
+          desc: "Insights from tech giants",
+          time: "Day 1 - Evening",
+          url: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+          color: "#E85D24"
+        },
+        {
+          id: 17,
+          title: "Night of fun",
+          desc: "Not just coding but also fun",
+          time: "Day 2 - Night",
+          url: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800",
+          color: "#63205F"
+        },
+        {
+          id: 18,
+          title: "Winner Announcement",
           desc: "A celebration of innovation and spirit",
-          time: "Day 2 - Evening",
+          time: "Day 3 - Afternoon",
           url: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800",
           color: "#E85D24"
         }
@@ -580,13 +580,13 @@ const Gallery = () => {
         }
       `}</style>
 
-      <div 
-        className="orb-glow orb-1" 
+      <div
+        className="orb-glow orb-1"
         style={{
           transform: `translate(${cursorPos.x * 0.02}px, ${cursorPos.y * 0.02}px)`
         }}
       />
-      <div 
+      <div
         className="orb-glow orb-2"
         style={{
           transform: `translate(${-cursorPos.x * 0.02}px, ${-cursorPos.y * 0.02}px)`
@@ -597,7 +597,7 @@ const Gallery = () => {
         <div className="gallery-header">
           <span className="faq-badge">Journey Through Time</span>
           <h2 className="dates-title">
-            Hackoverflow<span className="gradient-text"> Chronicles</span>
+            Hackoverflow<span className="gradient-text"> Memories</span>
           </h2>
           <p className="gallery-subtitle">
             Relive the moments that defined innovation
@@ -643,20 +643,20 @@ const Gallery = () => {
 
         <div className="immersive-grid">
           {currentData.memories.map((memory) => (
-            <div 
+            <div
               key={memory.id}
               className="immersive-card"
               onMouseEnter={() => setHoveredCard(memory.id)}
               onMouseLeave={() => setHoveredCard(null)}
             >
-              <img 
-                src={memory.url} 
+              <img
+                src={memory.url}
                 alt={memory.title}
                 className="immersive-image"
               />
               <div className="immersive-overlay">
-                <div 
-                  style={{ 
+                <div
+                  style={{
                     fontSize: '0.65rem',
                     color: memory.color,
                     fontWeight: 700,
