@@ -18,7 +18,7 @@ const Gallery = () => {
       title: string;
       desc: string;
       time: string;
-      url: string;
+      image: string;
       color: string;
     }>;
   }> = {
@@ -33,47 +33,48 @@ const Gallery = () => {
           title: "Opening Ceremony",
           desc: "The journey begins with 250+ passionate minds",
           time: "Day 1 - Morning",
-          url: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
+          image: "images/HO 1.0/1.1.png",
           color: "#FCB216"
         },
         {
           id: 2,
-          title: "Coding Begins",
-          desc: "Ideas turn into code, one line at a time",
-          time: "Day 1 - Evening",
-          url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800",
-          color: "#E85D24"
-        },
-        {
-          id: 3,
           title: "Judging & Mentoring",
           desc: "Where experience shapes innovation",
           time: "Day 2 - Afternoon",
-          url: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800",
+          image: "images/HO 1.0/1.2.JPG",
           color: "#D91B57"
         },
         {
-          id: 4,
-          title: "Networking Night",
-          desc: "Breaking the code and the routine",
-          time: "Day 2 - Night",
-          url: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800",
-          color: "#63205F"
-        },
-        {
-          id: 5,
+          id: 3,
           title: "Pitch Perfect",
           desc: "Months of effort, minutes to impress",
           time: "Day 3 - Morning",
-          url: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800",
+          image: "images/HO 1.0/1.3.JPG",
           color: "#FCB216"
         },
+        {
+          id: 4,
+          title: "Coding Begins",
+          desc: "Ideas turn into code, one line at a time",
+          time: "Day 1 - Evening",
+          image: "images/HO 1.0/1.4.JPG",
+          color: "#E85D24"
+        },
+        {
+          id: 5,
+          title: "Networking Night",
+          desc: "Breaking the code and the routine",
+          time: "Day 2 - Night",
+          image: "images/HO 1.0/1.5.JPG",
+          color: "#63205F"
+        },
+
         {
           id: 6,
           title: "Victory",
           desc: "Celebrating the innovators and winners",
           time: "Day 3 - Afternoon",
-          url: "https://images.unsplash.com/photo-1528605105345-5344ea20e269?w=800",
+          image: "images/HO 1.0/1.6.webp",
           color: "#E85D24"
         }
       ]
@@ -89,7 +90,7 @@ const Gallery = () => {
           title: "Grand Welcome",
           desc: "A new journey begins with bold ideas and open minds",
           time: "Day 1 - Morning",
-          url: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800",
+          image: "images/HO 2.0/2.1.JPG",
           color: "#FCB216"
         },
         {
@@ -97,7 +98,7 @@ const Gallery = () => {
           title: "Judging & Mentoring",
           desc: "Connections that last a lifetime",
           time: "Day 2 - Afternoon",
-          url: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800",
+          image: "images/HO 2.0/2.2.JPG",
           color: "#D91B57"
         },
         {
@@ -105,7 +106,7 @@ const Gallery = () => {
           title: "Final Pitch",
           desc: "Turning hard work into a powerful story",
           time: "Day 3 - Morning",
-          url: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800",
+          image: "images/HO 2.0/2.3.JPG",
           color: "#FCB216"
         },
         {
@@ -113,7 +114,7 @@ const Gallery = () => {
           title: "Hackathon Starts",
           desc: "The grind begins creativity meets execution",
           time: "Day 1 - Evening",
-          url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800",
+          image: "images/HO 2.0/2.4.webp",
           color: "#E85D24"
         },
         {
@@ -121,7 +122,7 @@ const Gallery = () => {
           title: "Jamming Night",
           desc: "Because innovation needs a little fun too",
           time: "Day 2 - Night",
-          url: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800",
+          image: "images/HO 2.0/2.5.JPG",
           color: "#63205F"
         },
         {
@@ -129,7 +130,7 @@ const Gallery = () => {
           title: "Champions Rise",
           desc: "New legends are born",
           time: "Day 3 - Afternoon",
-          url: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800",
+          image: "images/HO 2.0/2.6.JPG",
           color: "#E85D24"
         }
       ]
@@ -145,7 +146,7 @@ const Gallery = () => {
           title: "Inaguration Ceremony",
           desc: "Where innovators gather and possibilities take shape",
           time: "Day 1 - Morning",
-          url: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800",
+          image: "images/HO 3.0/3.1.JPG",
           color: "#FCB216"
         },
         {
@@ -153,7 +154,7 @@ const Gallery = () => {
           title: "Networking & Judging",
           desc: "Ideas that change the world",
           time: "Day 2 - Afternoon",
-          url: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800",
+          image: "images/HO 3.0/3.2.JPG",
           color: "#D91B57"
         },
         {
@@ -161,7 +162,7 @@ const Gallery = () => {
           title: "Grand Finale",
           desc: "The best minds evaluate brilliance",
           time: "Day 3 - Morning",
-          url: "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800",
+          image: "images/HO 3.0/3.3.JPG",
           color: "#FCB216"
         },
         {
@@ -169,7 +170,7 @@ const Gallery = () => {
           title: "Coding sprint",
           desc: "Insights from tech giants",
           time: "Day 1 - Evening",
-          url: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+          image: "images/HO 3.0/3.4.JPG",
           color: "#E85D24"
         },
         {
@@ -177,7 +178,7 @@ const Gallery = () => {
           title: "Night of fun",
           desc: "Not just coding but also fun",
           time: "Day 2 - Night",
-          url: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800",
+          image: "images/HO 3.0/3.5.JPG",
           color: "#63205F"
         },
         {
@@ -185,7 +186,7 @@ const Gallery = () => {
           title: "Winner Announcement",
           desc: "A celebration of innovation and spirit",
           time: "Day 3 - Afternoon",
-          url: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800",
+          image: "images/HO 3.0/3.6.JPG",
           color: "#E85D24"
         }
       ]
@@ -622,7 +623,7 @@ const Gallery = () => {
               onMouseLeave={() => setHoveredCard(null)}
             >
               <img
-                src={memory.url}
+                src={memory.image}
                 alt={memory.title}
                 className="immersive-image"
               />

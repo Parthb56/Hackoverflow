@@ -229,7 +229,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <a className="brochure" href="/docs/publicityBrochure.pdf" download>
+          <a className="brochure" href="/docs/PublicityBrochure.pdf" download>
             Brochure
           </a>
 

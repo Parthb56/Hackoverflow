@@ -267,7 +267,6 @@ const HackathonOverview = () => {
                 data-aos="fade-left" 
                 data-aos-delay="400"
               >
-                {/* Decorative Corner Markers for 'Tech' feel */}
                 <div className="corner-marker top-left"></div>
                 <div className="corner-marker bottom-right"></div>
 
